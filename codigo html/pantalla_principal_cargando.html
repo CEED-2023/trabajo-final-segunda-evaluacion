@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/minesweeper_flag.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscaminas</title>
+</head>
+
+<body cz-shortcut-listen="true">
+  <div id="root">
+    <header class="page-header">
+      <h1>Buscaminas online</h1>
+    </header>
+    <main>
+      <div id="home">
+        <div class="loading">
+          <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="container">
+          <h1>Crea un nuevo juego</h1>
+          <div class="name-container"><input type="text" class="player-name" placeholder="Introduce tu nombre"
+              value="Rumpelstiltskin"></div>
+          <form class="create-game">
+            <div class="difficulty">
+              <div class="custom-radio"><input type="radio" name="difficulty" id="radio1" value="EASY" checked=""><label
+                  for="radio1">Principiante</label></div>
+              <div class="custom-radio"><input type="radio" name="difficulty" id="radio2" value="MEDIUM"><label
+                  for="radio2">Intermedio</label></div>
+              <div class="custom-radio"><input type="radio" name="difficulty" id="radio3" value="HARD"><label
+                  for="radio3">Experto</label></div>
+            </div><button class="btn btn-primary ">Crear juego</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p>Reduciendo la productividad en las empresas desde 1989</p>
+    </footer>
+  </div>
+  
+</body>
+
+</html>
